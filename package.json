@@ -2,16 +2,19 @@
   "name": "framer-motion-spike",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "dependencies": {
+    "framer-motion": "^1.6.15",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "typescript": "^3.7.2"
   }
 }
